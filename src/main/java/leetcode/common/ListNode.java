@@ -1,4 +1,4 @@
-package common;
+package leetcode.common;
 
 public class ListNode {
     public int val;

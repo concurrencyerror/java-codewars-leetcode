@@ -1,6 +1,6 @@
 package leetcode;
 
-import common.TreeNode;
+import leetcode.common.TreeNode;
 
 public class Solution2331 {
     public boolean evaluateTree(TreeNode root) {

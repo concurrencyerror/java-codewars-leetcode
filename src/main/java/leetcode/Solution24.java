@@ -1,6 +1,6 @@
 package leetcode;
 
-import common.ListNode;
+import leetcode.common.ListNode;
 
 import java.util.Objects;
 

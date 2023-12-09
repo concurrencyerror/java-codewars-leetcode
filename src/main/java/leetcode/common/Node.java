@@ -1,4 +1,4 @@
-package common;
+package leetcode.common;
 
 import java.util.List;
 

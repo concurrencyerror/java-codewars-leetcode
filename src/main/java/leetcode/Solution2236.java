@@ -1,6 +1,6 @@
 package leetcode;
 
-import common.TreeNode;
+import leetcode.common.TreeNode;
 
 public class Solution2236 {
     public boolean checkTree(TreeNode root) {

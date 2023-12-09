@@ -1,4 +1,4 @@
-package common;
+package leetcode.common;
 
 /**
  * 2022/3/24

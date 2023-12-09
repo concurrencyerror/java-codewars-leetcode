@@ -1,6 +1,6 @@
 package leetcode;
 
-import common.TreeNode;
+import leetcode.common.TreeNode;
 
 /**
  * 1022. 从根到叶的二进制数之和
