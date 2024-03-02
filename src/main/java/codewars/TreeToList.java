@@ -1,7 +1,8 @@
 package codewars;
 
-import common.ListNode;
-import common.TreeNode;
+
+import codewars.common.ListNode;
+import codewars.common.TreeNode;
 
 import java.util.HashSet;
 import java.util.List;
