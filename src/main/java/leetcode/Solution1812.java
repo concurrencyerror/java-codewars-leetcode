@@ -3,10 +3,11 @@ package leetcode;
 public class Solution1812 {
     public boolean squareIsWhite(String coordinates) {
         char[] chars = coordinates.toCharArray();
-        if (isOdd(chars[1] - 'a')) {
-            return isOdd(Integer.parseInt(coordinates.substring(1)));
+        int num = Integer.parseInt(String.valueOf(chars[1]));
+        if (isOdd(chars[0] - 'a')) {
+            return isOdd(num);
         } else {
-            return !isOdd(Integer.parseInt(coordinates.substring(1)));
+            return !isOdd(num);
         }
     }
 
