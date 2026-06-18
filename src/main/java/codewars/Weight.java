@@ -39,20 +39,4 @@ public class Weight {
         });
         return map.values().stream().flatMap(Collection::stream).reduce((v1, v2) -> v1 + " " + v2).orElse("");
     }
-
-    public static void main(String[] args) {
-//        System.out.println(orderWeight("200 2 4 4 6 7 7 22 123"));
-        Stream.of("200", "2", "2").sorted((s1, s2) -> {
-            int length = Math.min(s1.length(), s2.length());
-            for (int i = 0; i < length; i++) {
-                int v1 = Integer.parseInt(String.valueOf(s1.charAt(i)));
-                int v2 = Integer.parseInt(String.valueOf(s2.charAt(i)));
-                int compare = Integer.compare(v1, v2);
-                if (compare != 0) {
-                    return compare;
-                }
-            }
-            return Integer.compare(s1.length(), s2.length());
-        }).forEach(System.out::println);
-    }
 }
